@@ -1,0 +1,9 @@
+{
+	"name": "ADF-project1-lisha",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aca207ac-6fa0-4302-8943-4592ca4ce793",
+		"tenantId": "616ad2ef-596c-434d-94ac-25743a07b827"
+	}
+}
