@@ -1,0 +1,9 @@
+{
+	"name": "KionADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a6d77d91-8490-407a-a4e8-d2dd836f6aff",
+		"tenantId": "616ad2ef-596c-434d-94ac-25743a07b827"
+	}
+}
