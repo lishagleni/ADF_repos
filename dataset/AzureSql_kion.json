@@ -1,0 +1,16 @@
+{
+	"name": "AzureSql_kion",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kionsql_data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Customers"
+		}
+	}
+}
