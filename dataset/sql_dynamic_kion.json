@@ -1,0 +1,23 @@
+{
+	"name": "sql_dynamic_kion",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kionsql_data",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": {
+				"value": "@dataset().tableName",
+				"type": "Expression"
+			}
+		}
+	}
+}
