@@ -36,7 +36,6 @@
 							"typeProperties": {
 								"source": {
 									"type": "AzureSqlSource",
-									"sqlReaderQuery": "SELECT * FROM @{dataset().tableName}",
 									"queryTimeout": "02:00:00",
 									"partitionOption": "None"
 								},
@@ -48,7 +47,7 @@
 									"formatSettings": {
 										"type": "DelimitedTextWriteSettings",
 										"quoteAllText": true,
-										"fileExtension": ".txt"
+										"fileExtension": ".csv"
 									}
 								},
 								"enableStaging": false,
@@ -75,7 +74,7 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "ds_adls_dev",
+									"referenceName": "ds_dev_kion",
 									"type": "DatasetReference",
 									"parameters": {
 										"folder": {
